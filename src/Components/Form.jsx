@@ -74,8 +74,8 @@ const Form = () => {
   };
 
   return (
-    <div>
-      <input
+    <div style={{backgroundColor:"Menu"}} >
+      <input 
         type="text"
         value={crntval}
         onChange={changetxt}
