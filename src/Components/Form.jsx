@@ -74,7 +74,7 @@ const Form = () => {
   };
 
   return (
-    <div>
+    <div style={{backgroundColor:"Background"}} >
       <input
         type="text"
         value={crntval}
